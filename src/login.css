@@ -1,0 +1,77 @@
+.fundo {
+  	background: #CCCCCC;
+	  padding: 30px;
+}
+
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro-login {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 50px;
+    background: #8c8585;
+    border-radius: 20px;
+
+}
+
+.quadro-login h1 {
+    color: #00000056;
+    font-family: "COURIER";
+}
+
+.campo-texto {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px; 
+}
+
+.campo-texto input {
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: #00000056;
+    font-size: 12pt;
+}
+
+.campo-texto label {
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: "COURIER";
+}
+
+.botao {
+    width: 100%;
+    padding: 15px 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #000000;
+    background: #f0ffff94;
+    cursor: pointer;
+    font-family: "COURIER";
+    text-align: center;
+}
+
+.texto{
+    color: #013803;
+    font-size: 15px; 
+    font-family: "COURIER";
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    
+  }

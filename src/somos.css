@@ -1,0 +1,54 @@
+.somos{
+	text-align: center;
+	vertical-align: top;
+	padding: 12px  ;
+	background: #CCCCCC;
+
+}
+.titulo{
+	color: #1C1C1C; 
+	font-size: 25px;
+	font-family: "COURIER";
+	text-align: center; 
+	padding: 40px 30px ; 
+} 
+.texto{
+	color: #1C1C1C; 
+	font-size: 19px;
+	font-family: "COURIER";
+	text-align: center;  
+}
+
+.tabela div {
+	background: #CCCCCC;
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	padding: 30px 26px ;
+	margin: 0 auto;
+}
+
+.fotos {
+	width: 50%;
+}
+
+.texto2{
+	color: #1C1C1C;
+	font-size: 18px;
+	font-family: "COURIER";
+	text-align: center;  
+}
+.texto3{
+	color: #015204; 
+	font-size: 15px;
+	font-family: "COURIER";
+	text-align: center;  
+}
+
+.texto4{
+	color: #1C1C1C; 
+	font-size: 13px;
+	font-family: "COURIER";
+	text-align: center;  
+}
+

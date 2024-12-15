@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Renovável</title>
+    <link rel="stylesheet" href="src/menu.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/bannerPrincipal.css">
+    <link rel="stylesheet" href="src/cookies.css">
+</head>
+<head>
+    <script defer src="scripts/banner-cookies.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="Imagem/logo.png" alt="Logo da Equipe Techsizen, um cervo verde, com grandes chifres e rodeado por folhas."></h1>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobrenos.php">Sobre nós</a></li>
+                    <li><a href="projeto.php">Projeto</a></li>
+                    <li><a href="calculadora.php">Calculadora</a></li>
+                    <li><a href="login.php" >Login</a></li>
+                </ul>
+            </nav>
+         </div>
+    </header>
+
+    <header>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </header>
+
+<div id="cookie-banner">
+        <p>Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a href="politicaprivacidade.html">Política de Privacidade</a>.</p>
+        <button class="accept" onclick="aceitarCookies()">Aceitar</button> 
+        <button class="reject" onclick="rejeitarCookies()">Rejeitar</button>
+    </div>
+
+    <div class="banner-rotativo">
+        <div><img src="https://i.pinimg.com/564x/1f/9b/f0/1f9bf018bebd0b9173ec4049b712693b.jpg" alt="Desenho de uma moça carregando lâmpada com o planeta Terra, sol, turbinas eólicas, painés solares e grama ao fundo."></div>
+        <div><img src="https://i.pinimg.com/736x/f5/68/31/f56831a47a1b6f6e8c6b4ca79f5ed6db.jpg" alt="Desenho de pessoas sentadas sobre painés solares, com uma lâmpada, árvores, turbinas eólicas e uma cidade ao fundo."></div>
+        <div><img src="https://i.pinimg.com/564x/c6/67/21/c6672119bbc55c376a981c2eb39c7afc.jpg" alt="Desenho de planeta Terra ao meio, várias casas, painés solares, turbinas eólicas acima dele, com montanhas e nuvens ao fundo."></div>
+        <div><img src="https://i.pinimg.com/564x/c6/2e/7e/c62e7e06001138a1400892b02a93644f.jpg" alt="Desenho de cidade verde flutuante, com prédios, árvores, turbinas eólicas e nuvens ao fundo."></div>
+        <div><img src="https://i.pinimg.com/564x/f7/91/68/f79168918602b52d00c7c9c8861abed8.jpg" alt="Desenho de símbolo de reciclagem, pintado com turbinas eólicas, casas, montanhas, árvores, um rio e panéis solares."></div>
+        <div><img src="https://i.pinimg.com/564x/2a/29/8c/2a298cfc0de97d7004f4af4b96ae3949.jpg" alt="Desenho que exemplifica os diferentes tipos de energia renovável, solar representada pelo sol, geotérmica representada por um vulcão, hidréletrica representada por um reservatório, biomassa representada por árvores, eólica representada por turbinas e marítima/de ondas representada pelos mesmos."></div>
+    </div>
+
+    <div class="principal">
+        <div>
+            <h1 class="texto2">Tipos de Energias</h1>
+            <ul class="texto3">
+                <li>Energia Elástica;</li>
+                <li>Energia Potencial Gravitacional;</li>
+                <li>Energia Química;</li>
+                <li>Energia Elétrica.</li>
+            </ul>
+        </div>
+
+        <div style="width: 300px">
+            <h2 class="texto2" >Gráficos de Uso de Energia Renovável</h2>
+            <canvas id="graficoUso" width="400" height="200"></canvas>
+        </div>
+
+        <div>
+            <h1 class="texto2">O Uso Eficiente de Energia</h1>
+            <p class="texto3">Utilize com eficiência a energia elétrica em sua casa e em seu trabalho. O desperdício sai caro para você e para o meio ambiente. Consumindo energia de forma consciente, você economiza na conta de luz e ainda ajuda na preservação das nossas reservas naturais.</p>
+        </div>
+
+        <div style="width: 300px">
+            <h2 class="texto2">Gráficos do Valor de Energia Renovável</h2>
+            <canvas id="graficoEnergias" width="400" height="200"></canvas>
+        </div>
+
+        <div class="secao">
+            <h2 class="titulo-video">Vídeo sobre Energia Renovável</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bdgYTLW4ec4?si=xPVXDwawSpyFxg_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="secao">
+            <h2 class="titulo-video">Vídeo sobre Diferença de Energias</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jwDlVquAAEc?si=8q0ForQVKY2BCdXN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div></div>
+    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127521.56552618626!2d-60.80602291966894!3d2.801793407030566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d9305c914617361%3A0x958af716753872a9!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20Roraima%20-%20Campus%20Boa%20Vista!5e0!3m2!1spt-BR!2sbr!4v1729461705562!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.banner-rotativo').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                speed: 500,
+                dots: false,
+                arrows: false
+            });
+
+            const ctxEnergias = document.getElementById('graficoEnergias').getContext('2d');
+            const graficoEnergias = new Chart(ctxEnergias, {
+                type: 'bar',
+                data: {
+                    labels: ['Nuclear', 'Geotérmica', 'Carvão', 'Gás combinado', 'Solar', 'Eólica'],
+                    datasets: [{
+                        label: 'Preço de Energia por Tipos (US$/MWh)',
+                        data: [190, 105, 130, 61, 48, 47],
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+
+            const ctxUso = document.getElementById('graficoUso').getContext('2d');
+            const graficoUso = new Chart(ctxUso, {
+                type: 'pie',
+                data: {
+                    labels: ['Hidrelétrica', 'Eólica', 'Biomassa e biogás', 'Solar centralizada', 'Energias não Renováveis'],
+                    datasets: [{
+                        label: 'Uso de Energia por Tipos no Brasil (%)',
+                        data: [63.8, 9.3, 8.9, 1.4, 16.6],
+                        backgroundColor: [
+                            'rgba(54, 162, 235, 0.2)',  
+                            'rgba(255, 206, 86, 0.2)', 
+                            'rgba(75, 192, 192, 0.2)', 
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 99, 132, 0.2)'   
+                        ],
+                        borderColor: [
+                            'rgba(54, 162, 235, 1)',  
+                            'rgba(255, 206, 86, 1)',  
+                            'rgba(75, 192, 192, 1)',  
+                            'rgba(153, 102, 255, 1)', 
+                            'rgba(255, 99, 132, 1)'   
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+
+    
+       document.addEventListener("DOMContentLoaded", function () {
+            if (!getCookie("cookies_aceitos")) {
+                document.getElementById("cookie-banner").style.display = "block";
+            }
+        });
+
+        function aceitarCookies() {
+            setCookie("cookies_aceitos", "sim", 30);
+            document.getElementById("cookie-banner").style.display = "none";
+        }
+
+        function rejeitarCookies() {
+            document.getElementById("cookie-banner").style.display = "none";
+        }
+
+        function setCookie(nome, valor, dias) {
+            const data = new Date();
+            data.setTime(data.getTime() + dias * 24 * 60 * 60 * 1000);
+            document.cookie = `${nome}=${valor};expires=${data.toUTCString()};path=/`;
+        }
+
+        function getCookie(nome) {
+            const nomeEQ = `${nome}=`;
+            const cookies = document.cookie.split(';');
+            for (let c of cookies) {
+                c = c.trim();
+                if (c.indexOf(nomeEQ) === 0) {
+                    return c.substring(nomeEQ.length, c.length);
+                }
+            }
+            return null;
+        }
+
+    </script>
+
+   <footer>
+    <p>&copy; 2024 Techshizen. Todos os direitos reservados.</p>
+    <p><a href="termos.html">Termos de Uso</a> & <a href="politicaprivacidade.html">Política de Privacidade</a></p>
+</footer>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.banner-rotativo').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 500,
+            dots: false,
+            arrows: false
+        });
+        const ctxEnergias = document.getElementById('graficoEnergias').getContext('2d');
+        const graficoEnergias = new Chart(ctxEnergias, {
+            type: 'bar',
+            data: {
+                labels: ['Nuclear', 'Geotérmica', 'Carvão', 'Gás combinado', 'Solar', 'Eólica'],
+                datasets: [{
+                    label: 'Preço de Energia por Tipos (US$/MWh)',
+                    data: [190, 105, 130, 61, 48, 47],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        const ctxUso = document.getElementById('graficoUso').getContext('2d');
+        const graficoUso = new Chart(ctxUso, {
+            type: 'pie',
+            data: {
+                labels: ['Hidrelétrica', 'Eólica', 'Biomassa e biogás', 'Solar centralizada', 'Energias não Renováveis'],
+                datasets: [{
+                    label: 'Uso de Energia por Tipos no Brasil (%)',
+                    data: [63.8, 9.3, 8.9, 1.4, 16.6],
+                    backgroundColor: [
+                        'rgba(54, 162, 235, 0.2)',  
+                        'rgba(255, 206, 86, 0.2)', 
+                        'rgba(75, 192, 192, 0.2)', 
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 99, 132, 0.2)'   
+                    ],
+                    borderColor: [
+                        'rgba(54, 162, 235, 1)',  
+                        'rgba(255, 206, 86, 1)',  
+                        'rgba(75, 192, 192, 1)',  
+                        'rgba(153, 102, 255, 1)', 
+                        'rgba(255, 99, 132, 1)'   
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    });
+</script>

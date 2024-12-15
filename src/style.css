@@ -1,0 +1,122 @@
+/* Estilo principal da página */
+.principal {
+  background: #CCCCCC;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap; /* Permite quebrar para uma nova linha em telas menores */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  gap: 20px; /* Espaçamento entre os elementos */
+}
+
+/* Ajusta os parágrafos */
+p {
+  width: 100%; /* Ocupa 100% da largura disponível */
+  max-width: 500px; /* Define um limite máximo para parágrafos */
+  margin: 5px auto; /* Centraliza horizontalmente */
+  padding: 20px;
+  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+/* Posição do botão na parte inferior direita */
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+}
+
+/* Estilo dos blocos dentro da classe principal */
+.principal div {
+  display: inline-block;
+  text-align: center;
+  width: 46%; /* Ajusta a largura dos blocos */
+  vertical-align: top;
+  padding: 30px 26px;
+  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+/* Ajustes de texto */
+.texto2 {
+  color: #1C1C1C;
+  font-size: 1.5rem; /* Usa rem para responsividade */
+  font-family: "Courier", monospace;
+  text-align: left;
+}
+
+.texto3 {
+  text-align: justify;
+  color: #1C1C1C;
+  font-size: 1.25rem;
+  font-family: "Courier", monospace;
+}
+
+/* Responsividade para telas médias (tablets) */
+@media (max-width: 768px) {
+  .principal div {
+      width: 100%; /* Ocupa 100% da largura em telas menores */
+      padding: 20px;
+  }
+
+  .texto2 {
+      font-size: 1.25rem; /* Reduz o tamanho do texto */
+  }
+
+  .texto3 {
+      font-size: 1rem;
+  }
+}
+
+/* Responsividade para telas pequenas (smartphones) */
+@media (max-width: 480px) {
+  .principal {
+      padding: 15px; /* Reduz o padding geral */
+  }
+
+  p {
+      padding: 15px;
+      font-size: 0.9rem; /* Texto menor em telas pequenas */
+  }
+
+  .texto2, .texto3 {
+      font-size: 1rem; /* Reduz o tamanho do texto */
+      text-align: center; /* Alinha ao centro para melhor leitura */
+  }
+
+  .bottom-right {
+      position: static; /* Remove posição absoluta em telas pequenas */
+      margin-top: 20px; /* Adiciona espaçamento superior */
+      width: auto; /* Ajusta o botão à largura do conteúdo */
+  }
+}
+
+/* Container flexível para vídeos */
+.video-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite os vídeos quebrarem linha em telas pequenas */
+  gap: 20px; /* Espaço entre os vídeos */
+  justify-content: center; /* Centraliza os vídeos horizontalmente */
+  margin: 20px 0;
+}
+
+/* Estilo para cada seção dos vídeos */
+.video-container .secao {
+  width: 48%; /* Largura de cada vídeo, lado a lado */
+  background-color: #f5f5f5; /* Cor de fundo para diferenciar as seções */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .video-container .secao {
+      width: 100%; /* Em telas menores, os vídeos ocupam toda a largura */
+  }
+}
+
+/* Estilo para os iframes dos vídeos */
+.video-container iframe {
+  width: 100%; /* O iframe ocupa toda a largura da seção */
+  height: 315px; /* Altura fixa para manter a proporção */
+  border: none; /* Remove borda */
+}

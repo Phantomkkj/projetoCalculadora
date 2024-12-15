@@ -1,0 +1,53 @@
+
+.secao {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .secao:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .secao h2 {
+    color: #2b3d52;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .secao p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .mapa {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .banner-rotativo {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .banner-rotativo img {
+    width: auto; /* Permite que a largura seja definida pela imagem original */
+    height: auto; /* Mantém a proporção natural da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border-radius: 10px; /* Bordas arredondadas para um visual moderno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve para destaque */
+  }
+
+  .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
